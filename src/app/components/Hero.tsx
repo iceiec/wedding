@@ -33,7 +33,7 @@ export function Hero() {
               lineHeight: '1.2'
             }}
           >
-            Sarah & James
+            Ed & Rheg
           </h1>
           <div
             className="text-2xl mb-8"

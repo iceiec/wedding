@@ -33,12 +33,12 @@ export function Navigation() {
         >
           <Heart className="w-6 h-6 text-rose-500" fill="currentColor" />
           <span className={`text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-            Sarah & James
+            Ed & Rheg
           </span>
         </button>
         
         <div className="hidden md:flex gap-8" style={{ fontFamily: 'Lato, sans-serif' }}>
-          {['Our Story', 'Details', 'RSVP', 'Gallery', 'Travel'].map((item) => (
+          {['Our Story', 'Details', 'RSVP', 'Gallery', 'Location'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}

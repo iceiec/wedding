@@ -30,7 +30,7 @@ export function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-24 bg-gray-50">
+    <section id="gallery" className="py-24 bg-gray-50" style={{ backgroundColor: '#F2F0EB' }}>
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

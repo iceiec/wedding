@@ -1,7 +1,6 @@
 
-  # Wedding Website Design
+  # Wedding Design
 
-  This is a code bundle for Wedding Website Design. The original project is available at https://www.figma.com/design/XbtWKpFymEWtthQWILp8GV/Wedding-Website-Design.
 
   ## Running the code
 

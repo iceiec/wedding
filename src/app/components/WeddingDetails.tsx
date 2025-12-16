@@ -30,7 +30,7 @@ export function WeddingDetails() {
   ];
 
   return (
-    <section id="details" className="py-24 bg-gradient-to-b from-rose-50 to-white">
+    <section id="details" className="py-24" style={{ backgroundColor: '#F2F0EB' }}>
       <div className="container mx-auto px-4">
         <motion.div {...fadeIn} className="text-center mb-16">
           <h2

@@ -40,95 +40,36 @@ export function Travel() {
             className="text-5xl mb-4"
             style={{ fontFamily: 'Playfair Display, serif' }}
           >
-            Travel & Stay
+            Location
           </h2>
           <div className="w-24 h-1 bg-rose-400 mx-auto mb-6" />
           <p
             className="text-xl text-gray-700"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            Everything you need to know for your visit to Malibu
+            Location of the place
           </p>
         </motion.div>
 
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-1 gap-8 mb-16">
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="text-center p-6 bg-rose-50 rounded-lg"
+              className="text-center p-6 bg-[#F5F3ED] rounded-lg shadow-md"
             >
-              <div className="w-16 h-16 bg-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#B8A89E] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Plane className="w-8 h-8 text-white" />
               </div>
-              <h3
-                className="text-2xl mb-3"
-                style={{ fontFamily: 'Playfair Display, serif' }}
-              >
+              <h3 className="text-2xl mb-3" style={{ fontFamily: 'Playfair Display, serif' }}>
                 Flying In
               </h3>
-              <p
-                className="text-gray-700"
-                style={{ fontFamily: 'Lato, sans-serif' }}
-              >
+              <p className="text-[#8E8573]" style={{ fontFamily: 'Lato, sans-serif' }}>
                 Los Angeles International Airport (LAX) is the nearest major airport, 
                 approximately 45 minutes from the venue.
               </p>
             </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-center p-6 bg-rose-50 rounded-lg"
-            >
-              <div className="w-16 h-16 bg-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Car className="w-8 h-8 text-white" />
-              </div>
-              <h3
-                className="text-2xl mb-3"
-                style={{ fontFamily: 'Playfair Display, serif' }}
-              >
-                Getting Around
-              </h3>
-              <p
-                className="text-gray-700"
-                style={{ fontFamily: 'Lato, sans-serif' }}
-              >
-                We recommend renting a car for easy travel. Ride-sharing services 
-                are also readily available in the area.
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-center p-6 bg-rose-50 rounded-lg"
-            >
-              <div className="w-16 h-16 bg-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Info className="w-8 h-8 text-white" />
-              </div>
-              <h3
-                className="text-2xl mb-3"
-                style={{ fontFamily: 'Playfair Display, serif' }}
-              >
-                Parking
-              </h3>
-              <p
-                className="text-gray-700"
-                style={{ fontFamily: 'Lato, sans-serif' }}
-              >
-                Complimentary parking is available at the venue. Valet service 
-                will be provided for your convenience.
-              </p>
-            </motion.div>
           </div>
 
+          {/*
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -186,10 +127,11 @@ export function Travel() {
               className="text-center mt-8 text-gray-700"
               style={{ fontFamily: 'Lato, sans-serif' }}
             >
-              A room block has been reserved at each hotel. Please mention "Sarah & James Wedding" 
+              A room block has been reserved at each hotel. Please mention "Ed & Rheg Wedding" 
               when booking to receive a special rate.
             </p>
           </motion.div>
+          */}
         </div>
       </div>
     </section>

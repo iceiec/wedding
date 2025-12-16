@@ -24,7 +24,7 @@ export function Registry() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-rose-50 to-white">
+    <section className="py-24 bg-gradient-to-b" style={{ backgroundColor: '#F2F0EB' }}> 
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

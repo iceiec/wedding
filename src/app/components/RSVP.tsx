@@ -31,7 +31,7 @@ export function RSVP() {
   };
 
   return (
-    <section id="rsvp" className="py-24 bg-white">
+    <section id="rsvp" className="py-24 bg-white" >
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -61,8 +61,9 @@ export function RSVP() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-2xl mx-auto bg-rose-50 rounded-lg shadow-xl p-8 md:p-12"
+          style={{ backgroundColor: '#ede9e8' }}
         >
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6" >
             <div>
               <label
                 htmlFor="name"
