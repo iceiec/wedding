@@ -38,18 +38,18 @@ export function Registry() {
             className="text-5xl mb-4"
             style={{ fontFamily: 'Playfair Display, serif' }}
           >
-            Registry
+            Gifts
           </h2>
           <div className="w-24 h-1 bg-rose-400 mx-auto mb-6" />
           <p
             className="text-xl text-gray-700 max-w-2xl mx-auto"
             style={{ fontFamily: 'Lato, sans-serif' }}
           >
-            Your presence is the greatest gift, but if you wish to honor us with a gift, 
-            we've registered at the following places.
+            Your love and support mean the world to us. In lieu of traditional gifts, 
+            we would be deeply grateful for a monetary gift to help us begin our family's new chapter together.
           </p>
         </motion.div>
-
+        {/*
         <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
           {registries.map((registry, index) => (
             <motion.a
@@ -82,6 +82,7 @@ export function Registry() {
             </motion.a>
           ))}
         </div>
+        */}
       </div>
     </section>
   );

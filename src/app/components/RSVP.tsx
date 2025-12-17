@@ -61,7 +61,7 @@ export function RSVP() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-2xl mx-auto bg-rose-50 rounded-lg shadow-xl p-8 md:p-12"
-          style={{ backgroundColor: '#ede9e8' }}
+          style={{ backgroundColor: '#F2F0EB' }}
         >
           <form onSubmit={handleSubmit} className="space-y-6" >
             <div>
