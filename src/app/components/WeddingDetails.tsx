@@ -44,7 +44,7 @@ export function WeddingDetails() {
             className="text-2xl text-gray-700"
             style={{ fontFamily: 'Cormorant Garamond, serif' }}
           >
-            Saturday, June 15, 2026
+            Friday, June 20, 2026
           </p>
         </motion.div>
 

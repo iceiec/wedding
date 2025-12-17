@@ -39,7 +39,7 @@ export function Hero() {
             className="text-2xl mb-8"
             style={{ fontFamily: 'Cormorant Garamond, serif' }}
           >
-            June 15, 2026
+            June 20, 2026
           </div>
           <motion.div
             initial={{ opacity: 0 }}
