@@ -22,7 +22,7 @@ export function Footer() {
             className="text-2xl mb-6"
             style={{ fontFamily: 'Cormorant Garamond, serif', color: '#F5F3ED' }}
           >
-            June 15, 2026
+            June 20, 2026
           </p>
           <p
             className="mb-2"
